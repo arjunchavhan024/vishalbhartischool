@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/562c3a9c41.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="#"><img src="logo.png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">INFRASTRUCTURE</a></li>
+                    <li><a href="#">ADDMISSION</a></li>
+                    <li><a href="./contact/contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Vishal Bharti Senior Secondary School</h1>
+            <p>At Vishal Bharti Senior Secondary School, we believe that every student has the potential to excel academically and personally. That’s why we’ve developed a unique approach to learning that focuses on each student’s individual needs and learning style. Our teachers are dedicated to fostering a supportive and inclusive learning environment, where students are encouraged to explore new ideas and take risks. We offer a wide range of academic and extracurricular programmes that enable our students to build a strong foundation for success.</p>
+            <a href="#" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+    <section class="contact">
+        <h1 >Contact Us...</h1>
+        <p></p>
+        <div class="row">
+            <div class="contact-col">
+                <h3>Address</h3>
+                <i class="fa-solid fa-location-dot"></i>
+                <p>At - Shahu Nagar, Amravati Maharashtra,<br> India.</p>
+            </div>
+            <div class="contact-col">
+                <h3>Contact</h3>
+                <i class="fa-solid fa-phone"></i>
+                <p>+91 7218XXXXXX <br> +91 8745XXXXXX</p>
+            </div>
+            <div class="contact-col">
+                <h3>Email</h3>
+                <i class="fa-solid fa-envelope"></i>
+                <p>sgbau@gmail.com <br> amr@gmail.com</p>
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <form class="form-contact contact_form">
+                <h3>Get In Touch</h3>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <textarea class="form-control w-100" cols="30" rows="10" placeholder=" Enter Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <input class="form-control valid" placeholder="Enter your name">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <input class="form-control valid" type="email" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="Enter Subject">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group mt-3">
+                    <a class="btn btn-primary" href="#" role="button">Submit</a>
+                </div>
+            </form>
+        </div>
+    </section>
+    <hr>
+    <section class="footer">
+        <div class="icons">
+            <i class=" fa fa-linkedin"></i>
+            <i class=" fa fa-twitter"></i>
+            <i class=" fa fa-instagram"></i>
+            <i class=" fa fa-facebook"></i>
+        </div>
+        <p>Made with <i class=" fa fa-heart-o"></i> @arjunchavhan024 </p>
+      </section>
+
+
+
+      <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
